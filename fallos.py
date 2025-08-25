@@ -79,7 +79,7 @@ def fallo_seguridad():
 # -------------------------------
 # Ejecución de pruebas
 # -------------------------------
-if _name_ == "_main_":
+if __name__ == "__main__":
     print("=== Simulación de Fallas de Software ===")
     fallo_excepcion()
     fallo_logica(10, 5)
